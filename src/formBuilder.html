@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>JSON Generator</h1>
+
+    <div class="container">
+        <form id="jsonForm">
+            <label>Date:</label>
+            <input type="date" id="date" required>
+
+            <label>Pick Up Location:</label>
+            <input type="text" id="pickup" required>
+
+            <label>Drop Off Location:</label>
+            <input type="text" id="dropoff" required>
+
+            <label>Person 1:</label>
+            <input type="text" id="person1" required>
+
+            <label>Person 2:</label>
+            <input type="text" id="person2" required>
+
+            <label>Person 3:</label>
+            <input type="text" id="person3">
+
+            <label>Person 4:</label>
+            <input type="text" id="person4">
+
+            <label>Price:</label>
+            <input type="text" id="price" required>
+
+            <label>Price in Word:</label>
+            <input type="text" id="priceWord" required>
+
+            <button type="button" onclick="addData()">Add Data</button>
+            <button type="button" onclick="downloadJSON()">Download JSON</button>
+        </form>
+
+        <div id="output">
+            <!-- <div>
+                <button type="submit" onclick="deleteData()">Delete</button>
+                {
+                "date": "12/05/2023",
+                "pickupLocation": "pickup",
+                "dropoffLocation": "dropoff",
+                "person1": "person1",
+                "person2": "person2",
+                "person3": "person3",
+                "person4": "",
+                "price": "1000",
+                "priceWord": "One Thousand"
+                },
+            </div> -->
+        </div>
+    </div>
+
+    <script src="formBuilder.js"></script>
+</body>
+
+</html>

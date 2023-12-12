@@ -1,0 +1,46 @@
+[
+  {
+    "date": "12/05/2023",
+    "pickupLocation": "pickup",
+    "dropoffLocation": "dropoff",
+    "person1": "person1",
+    "person2": "person2",
+    "person3": "person3",
+    "person4": "person4",
+    "price": "1000",
+    "priceWord": "One Thousand"
+  },
+  {
+    "date": "12/05/2023",
+    "pickupLocation": "pickup",
+    "dropoffLocation": "dropoff",
+    "person1": "person1",
+    "person2": "person2",
+    "person3": "person3",
+    "person4": "",
+    "price": "1000",
+    "priceWord": "One Thousand"
+  },
+  {
+    "date": "12/05/2023",
+    "pickupLocation": "pickup",
+    "dropoffLocation": "dropoff",
+    "person1": "person1",
+    "person2": "person2",
+    "person3": "person3",
+    "person4": "",
+    "price": "1000",
+    "priceWord": "One Thousand"
+  },
+  {
+    "date": "12/05/2023",
+    "pickupLocation": "pickup",
+    "dropoffLocation": "dropoff",
+    "person1": "person1",
+    "person2": "person2",
+    "person3": "person3",
+    "person4": "",
+    "price": "1000",
+    "priceWord": "One Thousand"
+  }
+]

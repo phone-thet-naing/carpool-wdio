@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#output {
+    /* margin-top: 20px; */
+    white-space: pre-wrap;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    /* background-color: aliceblue; */
+}
+
+#output div button {
+    /* background-color: beige; */
+    display: block;
+}
+
+input {
+    margin-bottom: 0.75rem;
+    display: block;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    /* background-color: blanchedalmond; */
+}
